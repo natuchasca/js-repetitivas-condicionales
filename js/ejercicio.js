@@ -122,17 +122,52 @@ if (lista2 > lista1) {
 */
 
 
-//#8 IDENTIFICANDO TIPO DE TRIANGULO
+/*
+//#8 IDENTIFICANDO TIPO DE TRIANGULO   /    OK!
+var lado1, lado2, lado3;
+lado1 = prompt("Ingrese medidas triangulo lado A");
+lado2 = prompt("Ingrese medidas triangulo lado B");
+lado3 = prompt("Ingrese medidas triangulo lado C");
+// Lados iguales
+if ((lado1 == lado2) && (lado1 == lado3)  && (lado2 == lado3)) {
+  alert("El triangulo es equilatero") 
+}
+// 2 Lados iguales 1 distinto
+if ((lado1 == lado2) || (lado1 == lado3) || (lado2 == lado3)) {
+  alert("El triangulo es isósceles") 
+}
+// Lados distintos
+if ((lado1 !== lado2) && (lado1 !== lado3)  && (lado2 !== lado3)) {
+  alert("El triangulo es escaleno")
+}
+*/
 
 
+/*
+//#9 TRADUCIENDO PALABRAS   /    OK!
+var palabra;
+palabra = prompt("Ingrese palabra a traducir. Opciones: casa, mesa, perro o gato");
+
+switch (palabra) {
+  case "hola":
+  alert("hello");
+  break
+  case "mesa":
+  alert("table");
+  break
+  case "perro":
+  alert("dog");
+  break
+  case "gato":
+  alert("cat");
+  break
+  default:
+  alert("no se encontro la palabra");
+}
+*/
 
 
-//#9 TRADUCIENDO PALABRAS
-
-
-
-
-//#10 CENSO PROVINCIAL
+//#10 CENSO PROVINCIAL / Faltan datos... 
 
 
 
